@@ -5,7 +5,7 @@
 
 html, body {
     background-color: lightgrey;
-    height: 100vwh;
+    height: 100%;
     background-image: url('https://images.pexels.com/photos/4577223/pexels-photo-4577223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
     background-repeat: no-repeat;
