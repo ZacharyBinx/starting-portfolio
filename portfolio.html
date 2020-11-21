@@ -16,8 +16,8 @@
 <body>
     <!-- Navbar with green bg and highlighted current pg -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkgreen;">
-            <a class="navbar-brand" href="index.html">Zach Favela</a>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" id="name-head" href="index.html">Zach Favela</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,60 +25,45 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About Me</a>
+                        <a class="nav-link" id="color-this" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" id="color-this" href="portfolio.html">Portfolio<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" id="color-this" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="container my-container">
-        <div class="col-md-6 mt-3 bg-white border border-primary rounded-lg">
+    <div class="container port-container aboot-me">
+        <div class="row rounded">
+            <div class="col-md-12 mt-3">
+                <h1 class="text-center" id="name-head">Portfolio</h1>
+            </div>
 
-            <!-- heading for portfolio pictures -->
-
-            <div class="row rounded">
-                <div class="col-md-12 mt-3">
-                    <h1><u>Portfolio</u></h1>
-                </div>
-
-                <!-- 2 pictures per line -->
+        </div>
+        <div class="row port-row mx-auto">
+            <div class="col-md-5 mt-4">
+                <img src="assets\onload-pw.PNG" alt="port-img" class="img-pw" id="port-img">
+                <p class="text-center" id="color-this">
+                    Check out this <a href="https://zacharybinx.github.io/pw-generator/">password generator</a>
+                </p>
             </div>
-            <div class="row port-row">
-                <div class="col-md-6 mt-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
-                </div>
-                <div class="col-md-6 mt-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
-                </div>
+            <div class="col-md-5 offset-1 mt-4">
+                <img src="assets\project.PNG" alt="port-img" class="img-project" id="port-img">
+                <p class="text-center" id="color-this">
+                ...Or this collaborative <a href="https://meganlavallee.github.io/Date_Night/">project</a>
+                </p>
             </div>
-            <div class="row port-row">
-                <div class="col-md-6 mt-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
-                </div>
-                <div class="col-md-6 mt-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
-                </div>
-            </div>
-            <div class="row port-row">
-                <div class="col-md-6 mt-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
-                </div>
-                <div class="col-md-6 mt-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
-                </div>
-            </div>
-            <div class="row port-row">
-                <div class="col-md-6 mt-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
-                </div>
-                <div class="col-md-6 mt-4 mb-4">
-                    <img src="http://placekitten.com/150/150" alt="port-img" class="img-thumbnail">
+            <div class="row port-row mx-auto">
+                <div class="col-md-12 mt-4">
+                    <img src="assets\onload.PNG" alt="port-img" class="img-quiz" id="port-img">
+                    <p class="text-center" id="color-this">
+                    Not for the faint of heart, can you  <a href="https://zacharybinx.github.io/QuizMaster/">survive?</a>
+                    </p>
                 </div>
             </div>
         </div>
