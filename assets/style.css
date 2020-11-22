@@ -30,19 +30,23 @@ html, body {
   border-color: rgb(20, 20, 167);
   margin-right: 2rem;
 }
-#port-img{
+.img-pw{
   border: solid;
   border-radius: 4px;
   border-color: rgb(20, 20, 167);
-}
-.img-pw{
-height: 27rem;
+  height: 27rem;
 }
 .img-quiz{
-height: 22rem;
+  border: solid;
+  border-radius: 4px;
+  border-color: rgb(20, 20, 167);
+  height: 22rem;
 }
 .img-project{
-height: 27rem;
+  border: solid;
+  border-radius: 4px;
+  border-color: rgb(20, 20, 167);
+  height: 27rem;
 }
 .navbar-light .navbar-nav .active>.nav-link.color-this {
   font-family: kanit;
