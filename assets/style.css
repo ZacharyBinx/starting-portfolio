@@ -18,7 +18,7 @@ html, body {
   background-color: #3b3b3b;
   margin-bottom: 20px;
 }
-#name-head {
+.navbar-light .navbar-brand.name-head {
   font-family: Lobster;
   font-size: 2rem;
   color: rgb(214, 214, 214);
