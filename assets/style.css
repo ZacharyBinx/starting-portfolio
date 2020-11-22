@@ -76,11 +76,11 @@ height: 27rem;
   border-style: solid;
   border-radius: 4px;
 }
-.my-footer {
+/* .my-footer {
   display: flex;
   height: 60px;
   width: 100%;
-}
+} */
 .clearfooter{
   height: 1px;
   clear: both;
