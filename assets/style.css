@@ -11,6 +11,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 40px;
+    background-attachment: fixed;
 }
 .navbar {
   width: 100%;
@@ -18,7 +19,7 @@ html, body {
   background-color: #3b3b3b;
   margin-bottom: 20px;
 }
-#name-head {
+.navbar-light .navbar-brand.name-head, .name-head {
   font-family: Lobster;
   font-size: 2rem;
   color: rgb(214, 214, 214);
@@ -43,7 +44,13 @@ height: 22rem;
 .img-project{
 height: 27rem;
 }
-#color-this {
+.navbar-light .navbar-nav .active>.nav-link.color-this {
+  font-family: kanit;
+  font-size: 1rem;
+  color: rgb(136, 130, 130);
+  font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link.color-this, .color-this {
   font-family: kanit;
   font-size: 1rem;
   color: rgb(214, 214, 214);
