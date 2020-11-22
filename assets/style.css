@@ -41,7 +41,8 @@ html, body {
   border: solid;
   border-radius: 4px;
   border-color: rgb(20, 20, 167);
-  width: 100%;
+  width: 97%;
+  justify-content: center;
 }
 .img-project{
   border: solid;
@@ -66,7 +67,6 @@ html, body {
   width: 100%;
   justify-content: right;
   margin-right: 50px;
-  min-height: 100%;
   box-sizing: border-box;
 }
 .port-container{
