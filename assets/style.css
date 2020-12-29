@@ -6,12 +6,13 @@
 html, body {
     background-color: lightgrey;
     height: 100%;
-    background-image: url('https://images.pexels.com/photos/4577223/pexels-photo-4577223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://images.unsplash.com/photo-1507936580189-3816b4abf640?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 40px;
     background-attachment: fixed;
+    background-blend-mode: darken;
 }
 .navbar {
   width: 100%;
@@ -22,45 +23,48 @@ html, body {
 .navbar-light .navbar-brand.name-head, .name-head {
   font-family: Lobster;
   font-size: 2rem;
-  color: rgb(214, 214, 214);
+  color: rgb(146, 145, 104);
 }
 #main-img{
   border: solid;
   border-radius: 4px;
-  border-color: rgb(20, 20, 167);
+  border-color: rgb(21, 49, 31);
   margin-right: 2rem;
+  height: 350px;
+  width: 270px;
+  opacity: 80%;
 }
 .img-pw{
   border: solid;
   border-radius: 4px;
-  border-color: rgb(20, 20, 167);
+  border-color: rgb(21, 49, 31);
   width: 100%;
   box-sizing: border-box;
 }
 .img-quiz{
   border: solid;
   border-radius: 4px;
-  border-color: rgb(20, 20, 167);
+  border-color: rgb(21, 49, 31);
   width: 97%;
   justify-content: center;
 }
 .img-project{
   border: solid;
   border-radius: 4px;
-  border-color: rgb(20, 20, 167);
+  border-color: rgb(21, 49, 31);
   width: 90%;
   margin-left: 20px;
 }
 .navbar-light .navbar-nav .active>.nav-link.color-this {
   font-family: kanit;
   font-size: 1rem;
-  color: rgb(136, 130, 130);
+  color: rgb(146, 145, 104);
   font-size: 1rem;
 }
 .navbar-light .navbar-nav .nav-link.color-this, .color-this {
   font-family: kanit;
   font-size: 1rem;
-  color: rgb(214, 214, 214);
+  color: rgb(146, 145, 104);
   font-size: 1rem;
 }
 .my-container {
@@ -79,11 +83,12 @@ html, body {
 }
 .aboot-me{
   background-color:  #3b3b3b;
-  color: rgb(17, 17, 131);
+  color: rgb(21, 49, 31);
   margin-top: 20px;
-  border: rgb(20, 20, 167);
+  border: rgb(21, 49, 31);
   border-style: solid;
   border-radius: 4px;
+  opacity: 90%;
 }
 /* .my-footer {
   display: flex;

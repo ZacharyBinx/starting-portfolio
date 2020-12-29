@@ -5,7 +5,7 @@ Welcome to my portfolio! Spanning multiple pages is some information about me, w
 
 ## Style
 
-I chose a simple background that would look nice on all pages. About me image is a placeholder until I upload different images. The contact card and portfolio pages are updated including a link to currently active projects and my GitHub. Check it out below:
+I chose a simple background that would look nice on all pages. The contact card and portfolio pages are updated including a link to currently active projects and my GitHub. Check it out below:
 
 ![About Me](assets/readme-about.PNG)
 
