@@ -5,11 +5,13 @@ Welcome to my portfolio! Spanning multiple pages is some information about me, w
 
 ## Style
 
-I chose a simple background that would look nice on all pages. The contact card and portfolio pages are updated including a link to currently active projects and my GitHub. Check it out below:
+I chose a simple background that would look nice on all pages. The contact card and portfolio pages are updated including a link to currently active projects and my GitHub. New update includes projects on portfolio page which is displayed using a carousel. Check it out below:
 
 ![About Me](assets/readme-about.PNG)
 
-![About Me](assets/readme-port.PNG)
+![Portfolio Carousel](assets/readme-port1.PNG)
+
+![Portfolio Carousel](assets/readme-port2.PNG)
 
 ![About Me](assets/readme-cont.PNG)
 
